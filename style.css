@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  justify-content: center;
+  background-image: url(./image/baralho.jpg);
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+.container{
+  background-image: url(./image/cartas-fundo.jpg);
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: inset 3px 3px 3px #4e4d4d;
+}
+.imagem-carta img{
+  width: 120px;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
+}
+.btn button{
+  background: #4e4d4d;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn button:hover{
+  background: #0a0241;
+}
+
+.input-text{
+  margin-bottom: 5px;
+  background: #4e4d4d;
+  border: none;
+  width: 120px;
+  height: 30px;
+  color: #FFF;
+  text-align: center;
+  border-radius: 4px;
+}
